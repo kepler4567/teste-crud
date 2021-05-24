@@ -1,0 +1,5 @@
+Create table tableusuarios(
+    Nome varchar(50),
+    Cargo varchar(100),
+    Idade int
+);

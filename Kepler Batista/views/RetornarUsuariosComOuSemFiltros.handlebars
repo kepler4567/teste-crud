@@ -1,0 +1,27 @@
+<style>
+    * {
+        padding: 10px;
+        border-color: black;
+        border-width: 2px;
+    }
+</style>
+
+<table>
+    <tr>
+        <td>Nome</td>
+        <td>Cargo</td>
+        <td>Idade</td>
+        <td>id</td>
+    </tr>
+{{#data}}
+    <tr>
+        <td>{{Nome}}</td>
+        <td>{{Cargo}}</td>
+        <td>{{Idade}}</td>
+        <td>{{id}}</td>
+        
+    </tr>
+ {{/data}}   
+</table>
+
+<a href="/iniciar"><button>retornar ao iniciar</button></a>
